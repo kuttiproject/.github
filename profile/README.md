@@ -10,4 +10,5 @@ Finally, an application called [kutti](https://github.com/kuttiproject/kutti) co
 
 Apart from these main components, the project also includes some add-ons and tools, including:
 
-* [provisioner-localvolume](https://github.com/kuttiproject/provisioner-localvolume), a simple external provisioner that uses the in-tree `local` driver for dynamic volume provisioning.
+* [provisioner-localvolume](https://github.com/kuttiproject/provisioner-localvolume), a simple external provisioner that uses the Kubernetes in-tree `local` driver for dynamic volume provisioning.
+* [kutti weave](https://github.com/kuttiproject/weave), a fork of the popular Weave Net CNI add-on, which provides container networking and network policies.
